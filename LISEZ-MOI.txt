@@ -1,0 +1,29 @@
+FLASH ISOTHERME — GUIDE D'EXÉCUTION
+
+Contenu
+- flash_isotherme.py : script Python du calcul flash.
+
+Prérequis
+- Python 3.10 ou version récente recommandé
+- Bibliothèques : numpy et scipy
+
+Installation des bibliothèques
+Ouvrez un terminal / Invite de commandes dans ce dossier et exécutez :
+    python -m pip install numpy scipy
+
+Exécution
+Dans le même terminal :
+    python flash_isotherme.py
+
+Dans VS Code
+1. Ouvrez le dossier flash_isotherme.
+2. Ouvrez flash_isotherme.py.
+3. Installez l'extension Python si nécessaire.
+4. Installez numpy et scipy dans le terminal intégré :
+       python -m pip install numpy scipy
+5. Cliquez sur Run Python File (Exécuter le fichier Python).
+
+Remarque scientifique
+Le script utilise les constantes d'Antoine fournies dans le code et la loi de Raoult.
+Vérifiez le domaine de validité des constantes. Pour des résultats industriels précis,
+comparez avec un modèle thermodynamique comme Peng-Robinson ou SRK.
